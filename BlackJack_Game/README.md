@@ -4,13 +4,13 @@ The game of [Blackjack](https://en.wikipedia.org/wiki/Blackjack) or twenty-one i
 
 My code allows simulating a player against an automated dealer. The player plays with hit (h) or stand(s), show one more card or stop respectively, and also has a wallet that is established at the beginning, when the player loses all his money he must restart the game or stop to train a little.
 
-One of the recurring features in the game occurs when the card is an ACE, if that is the case, you must choose the one that best fits your deck every time the game runs. The dealer has this automated pick based on your current score. 
+One of the recurring features in the game occurs when the card is an ACE, if that is the case, you must choose between the values of 11 or 1 comparing what fits better your cards every time the game runs. The dealer has this automated pick based on his current score. 
 
 Run the game on terminal with:
 ```bash
 python3 game.py
 ```
-In this file you can change the name of the player and the wallet amount
+In this file you can change the name of the player and the wallet amoun
 ```python
 jogador1 = Player('{name}',{wallet amount})
 print(jogador1)
