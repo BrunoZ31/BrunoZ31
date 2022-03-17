@@ -1,0 +1,13 @@
+O jogo de {Blackjack}(https://en.wikipedia.org/wiki/Blackjack) ou vinte e um é um jogo de cassino em que os jogadores e o dealear (mesa) disputam o quão próximo chegam de 21 sem ultrapassar.
+
+Meu código permite simular o jogo de só um jogador contra um dealer automatizado. O jogador joga com hit (h) ou stand(s), mostrar mais uma carta ou parar respectivamente, e também possui uma carteira que é estabelecida no começo, quando o jogador perde todo seu dinheiro deve recomeçar o jogo ou parar para treinar um pouco antes de retornar.
+
+Uma das funcionalidades recorrentes no jogo é o caso da carta ser um ACE, se esse for o caso, deve-se escolher a que melhor se adapta ao seu baralho toda vez que o jogo roda. O dealer tem essa escolha automatizada com base na sua pontuação atual.
+
+Para declarar um jogador
+'''
+
+jogador1 = Player('Bruno',1000)
+print(jogador1)
+
+'''
