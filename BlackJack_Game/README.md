@@ -12,7 +12,7 @@ python3 game.py
 ```
 In this file you can change the name of the player and the wallet amount
 ```python
-jogador1 = Player('name',{wallet amount})
+jogador1 = Player('{name}',{wallet amount})
 print(jogador1)
 ```
 
